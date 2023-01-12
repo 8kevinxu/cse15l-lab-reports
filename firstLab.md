@@ -23,8 +23,9 @@ Horizontal rule:
 2. Bananas
 3. Watermelon
 
-'I'm not sure what this does' << oh okay
+`I'm not sure what this does` << oh okay
 
-  # code block
-  print '3 backticks or'
-  print 'indent 4 spaces'
+```
+this should be text in a block
+
+```
