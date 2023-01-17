@@ -9,12 +9,12 @@ Go to https://code.visualstudio.com/, and follow the instructions to download an
 Next, open a terminal in VScode. (Ctrl or Command + `, or use the Terminal → New Terminal menu option). 
 Your command should look like this (with the zz being replaced by the letters in your specific course account.:
 ```
-#$ ssh cs15lwi23zz@ieng6.ucsd.edu
+$ ssh cs15lwi23zz@ieng6.ucsd.edu
 ```
 
 If this is  the first time you’ve connected to this server, you will probably get a message like this:
 ```
-#⤇ ssh cs15lwi23zz@ieng6.ucsd.edu
+⤇ ssh cs15lwi23zz@ieng6.ucsd.edu
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? 
