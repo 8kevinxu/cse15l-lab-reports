@@ -6,13 +6,14 @@ Go to https://code.visualstudio.com/, and follow the instructions to download an
 ![Image](VSCODE.png)
 
 ### Step 2: Connect Remotely
-Next, open a terminal in VScode. (Ctrl or Command + `, or use the Terminal → New Terminal menu option). 
-Your command should look like this (with the zz being replaced by the letters in your specific course account:
+Open the terminal and use the ssh command along with your course specifc-account. (Look up your course-specific account here: ![Link](https://sdacs.ucsd.edu/~icc/index.php), you'll have to set your password and wait a couple minutes.)
+
+This is what the command you're typing in should look like. 
 ```
 $ ssh cs15lwi23zz@ieng6.ucsd.edu
 ```
 
-If this is  the first time you’ve connected to this server, you'll probably get a message like this:
+If this is  the first time you’ve connected to the server, you'll probably get a message like this:
 ```
 ⤇ ssh cs15lwi23zz@ieng6.ucsd.edu
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
