@@ -2,11 +2,11 @@
 
 ## How to log into a course-specific account on ieng6 (Remotely Connecting)
 ### Step 1: Download Visual Studio Code (if you don't already have it)
-Go to [Link](https://code.visualstudio.com/), and follow the instructions to download and install it on your computer. Download the version that corresponds to your computer, i.e. if you have a mac, install the mac version, otherwise you'll run into problems. When it is installed, it should open a window that looks like this when opened.
+Go to [(https://code.visualstudio.com/)](https://code.visualstudio.com/), and follow the instructions to download and install it on your computer. Download the version that corresponds to your computer, i.e. if you have a mac, install the mac version, otherwise you'll run into problems. When it is installed, it should open a window that looks like this when opened.
 ![Image](VSCODE.png)
 
 ### Step 2: Connect Remotely
-Open the terminal on Visual Studio Code and use the ssh command along with your course specifc-account. Look up your course-specific account here:[https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php) you'll have to set your password and wait a couple minutes.
+Open the terminal on Visual Studio Code and use the ssh command along with your course specifc-account. Look up your course-specific account here: [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php) you'll have to set your password and wait a couple minutes.
 
 This is what the command you're typing in should look like. 
 ```
