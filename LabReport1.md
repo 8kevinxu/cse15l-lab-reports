@@ -8,12 +8,12 @@ Go to [(https://code.visualstudio.com/)](https://code.visualstudio.com/), and fo
 ### Step 2: Connect Remotely
 Open the terminal on Visual Studio Code and use the ssh command along with your course specifc-account. Look up your course-specific account here: [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php) you'll have to set your password and wait a couple minutes.
 
-This is what the command you're typing in should look like. 
+This is what the command I typed in looked like
 ```
-$ ssh cs15lwi23zz@ieng6.ucsd.edu
+$ ssh cs15lwi23aqy@ieng6.ucsd.edu
 ```
 
-If this is  the first time you’ve connected to the server, you'll probably get a message like this:
+Since it was my first time connecting to the server, I got this message:
 ```
 ⤇ ssh cs15lwi23zz@ieng6.ucsd.edu
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
@@ -21,7 +21,7 @@ RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? 
 ```
 
-Type yes and press enter, and then type in your password; the interaction should look like this (for my computer specifically, the password doesn't come up as you type it, you may run into the same problem but don't worry because the client still receives the password)
+I typed yes and pressed enter, and then typed in my password; the interaction should look like this (for my computer specifically, the password doesn't come up as you type it, you may run into the same problem but don't worry because the client still receives the password)
 
 ```
 # On your client
@@ -32,25 +32,14 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 Password: 
 ```
 
-If you've succesfully logged in, you should see something like this:
+My terminal looked like this once I logged in.
 ![Image](remoteconnect.png)
 
-Your terminal is now connected to a computer in the CSE basement, any command you run will run on that computer. 
 
 ### Step 3: Running Some Commands
 Try running commands you learned about in class like ls, pwd, and cd on your computer and the remote computer. 
-
-Some useful commands to try:
-* cd ~
-* cd
-* ls -lat
-* ls -a
-* ls <directory> where <directory> is /home/linux/ieng6/cs15lwi23/cs15lwi23abc, where the abc is one of the other group members’ username
-* cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
-* cat /home/linux/ieng6/cs15lwi23/public/hello.txt
   
-  
-Here is an example of me executing some of the commands:
+Here is an example of me executing some of the common commands:
 ![Image](runningcommands.png)
 
 I was able to figure out and get more comfortable with the commands just by trying different commands out. For example, I figured out what ls -lat does by simply typing it into the terminal, and saw that it posted directories with dates and times, which tells me that the command ls -lat lists directories/files by date. 
