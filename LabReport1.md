@@ -20,7 +20,7 @@ RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? 
 ```
 
-Type yes and press enter, and then type in your password; the interaction should look like this
+Type yes and press enter, and then type in your password; the interaction should look like this (for my computer specifically, the password doesn't come up as you type it, you may run into the same problem but don't worry because the client still receives the password)
 
 ```
 # On your client
@@ -34,7 +34,7 @@ Password:
 If you've succesfully logged in, you should see something like this:
 ![Image](remoteconnect.png)
 
-Your terminal is now connected to a computer in the CSE basement, any command you run will run on that computer. You are now officially remotely connected to your course-specific account. 
+Your terminal is now connected to a computer in the CSE basement, any command you run will run on that computer. 
 
 ### Step 3: Running Some Commands
 Try running commands you learned about in class like ls, pwd, and cd on your computer and the remote computer. 
@@ -52,7 +52,7 @@ Some useful commands to try:
 Here is an example of me executing some of the commands:
 ![Image](runningcommands.png)
 
-I was able to figure out and get more comfortable with the commands just by trying different commands out. 
+I was able to figure out and get more comfortable with the commands just by trying different commands out. For example, I figured out what ls -lat does by simply typing it into the terminal, and saw that it posted directories with dates and times, which tells me that the command ls -lat lists directories/files by date. 
 
 
 
