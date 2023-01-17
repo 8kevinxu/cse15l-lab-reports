@@ -21,7 +21,7 @@ RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? 
 ```
 
-I typed yes and pressed enter, and then typed in my password; the interaction should look like this (for my computer specifically, the password doesn't come up as you type it, you may run into the same problem but don't worry because the client still receives the password)
+I typed yes and pressed enter, and then typed in my password; the interaction should look like this:
 
 ```
 # On your client
