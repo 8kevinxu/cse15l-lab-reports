@@ -1,8 +1,8 @@
 # Week 1 Lab Report
 
-## How to log into a course-specific account on ieng6
+## How to log into a course-specific account on ieng6 (Remotely Connecting)
 ### Step 1: Download Visual Studio Code (if you don't already have it)
-Go to https://code.visualstudio.com/, and follow the instructions to download and install it on your computer. When it is installed, it should open a window that looks like this when opened. 
+Go to https://code.visualstudio.com/, and follow the instructions to download and install it on your computer. Download the version that corresponds to your computer, i.e. if you have a mac, install the mac version, otherwise you'll run into problems. When it is installed, it should open a window that looks like this when opened.
 ![Image](VSCODE.png)
 
 ### Step 2: Connect Remotely
@@ -34,9 +34,11 @@ Password:
 If you've succesfully logged in, you should see something like this:
 ![Image](remoteconnect.png)
 
-Your terminal is now connected to a computer in the CSE basement, any command you run will run on that computer. In this case, your computer is the *client* while the computer in the basement is the *server*. 
+Your terminal is now connected to a computer in the CSE basement, any command you run will run on that computer. You are now officially remotely connected to your course-specific account. 
 
 ### Step 3: Running Some Commands
+Try running commands you learned about in class like ls, pwd, and cd on your computer and the remote computer. 
+
 Some useful commands to try:
 * cd ~
 * cd
@@ -49,6 +51,8 @@ Some useful commands to try:
   
 Here is an example of me executing some of the commands:
 ![Image](runningcommands.png)
+
+I was able to figure out and get more comfortable with the commands just by trying different commands out. 
 
 
 
