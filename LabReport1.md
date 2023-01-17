@@ -2,7 +2,7 @@
 
 ## How to log into a course-specific account on ieng6 (Remotely Connecting)
 ### Step 1: Download Visual Studio Code (if you don't already have it)
-Go to https://code.visualstudio.com/, and follow the instructions to download and install it on your computer. Download the version that corresponds to your computer, i.e. if you have a mac, install the mac version, otherwise you'll run into problems. When it is installed, it should open a window that looks like this when opened.
+Go to [Link](https://code.visualstudio.com/), and follow the instructions to download and install it on your computer. Download the version that corresponds to your computer, i.e. if you have a mac, install the mac version, otherwise you'll run into problems. When it is installed, it should open a window that looks like this when opened.
 ![Image](VSCODE.png)
 
 ### Step 2: Connect Remotely
