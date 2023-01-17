@@ -6,7 +6,7 @@ Go to [(https://code.visualstudio.com/)](https://code.visualstudio.com/), and fo
 ![Image](VSCODE.png)
 
 ### Step 2: Connect Remotely
-Open the terminal on Visual Studio Code and use the ssh command along with your course specifc-account. Look up your course-specific account here: [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php) You'll have to set your password and wait a couple minutes.
+Open the terminal on Visual Studio Code and use the ssh command along with your course specifc-account. Look up your course-specific account here: [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php) You'll have to set your password and wait a couple minutes. Once I got my account name and set my password, I typed in the command ssh with my account name: 
 
 This is what the command you're typing in should look like:  
 ```
