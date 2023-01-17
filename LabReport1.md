@@ -7,12 +7,12 @@ Go to https://code.visualstudio.com/, and follow the instructions to download an
 
 ### Step 2: Connect Remotely
 Next, open a terminal in VScode. (Ctrl or Command + `, or use the Terminal → New Terminal menu option). 
-Your command should look like this (with the zz being replaced by the letters in your specific course account.:
+Your command should look like this (with the zz being replaced by the letters in your specific course account:
 ```
 $ ssh cs15lwi23zz@ieng6.ucsd.edu
 ```
 
-If this is  the first time you’ve connected to this server, you will probably get a message like this:
+If this is  the first time you’ve connected to this server, you'll probably get a message like this:
 ```
 ⤇ ssh cs15lwi23zz@ieng6.ucsd.edu
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
@@ -20,9 +20,35 @@ RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? 
 ```
 
-Type yes and press enter, and then type in your password. 
+Type yes and press enter, and then type in your password; the interaction should look like this
 
-You should have been logged on, and seen something like this. 
+```
+# On your client
+⤇ ssh cs15lwi23zz@ieng6.ucsd.edu
+The authenticity of host 'ieng6-202.ucsd.edu (128.54.70.227)' can't be established.
+RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+Password: 
+```
 
+If you've succesfully logged in, you should see something like this:
 ![Image](remoteconnect.png)
+
+Your terminal is now connected to a computer in the CSE basement, any command you run will run on that computer. In this case, your computer is the *client* while the computer in the basement is the *server*. 
+
+### Step 3: Running Some Commands
+Some useful commands to try:
+* cd ~
+* cd
+* ls -lat
+* ls -a
+* ls <directory> where <directory> is /home/linux/ieng6/cs15lwi23/cs15lwi23abc, where the abc is one of the other group members’ username
+* cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
+* cat /home/linux/ieng6/cs15lwi23/public/hello.txt
+  
+  
+Here is an example of me executing some of the commands:
+![Image](runningcommands.png)
+
+
 
