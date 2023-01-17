@@ -8,7 +8,7 @@ Go to [(https://code.visualstudio.com/)](https://code.visualstudio.com/), and fo
 ### Step 2: Connect Remotely
 Open the terminal on Visual Studio Code and use the ssh command along with your course specifc-account. Look up your course-specific account here: [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php) You'll have to set your password and wait a couple minutes.
 
-This is what the command you're typing in should look like. 
+This is what the command you're typing in should look like:  
 ```
 $ ssh cs15lwi23zz@ieng6.ucsd.edu
 ```
@@ -32,7 +32,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 Password: 
 ```
 
-My terminal looked like this once I logged in.
+My terminal looked like this once I logged in, and I now had access to one of the computers in the basement of the CSE building.
 ![Image](remoteconnect.png)
 
 
