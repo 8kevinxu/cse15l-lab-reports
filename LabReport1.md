@@ -8,12 +8,12 @@ Go to [(https://code.visualstudio.com/)](https://code.visualstudio.com/), and fo
 ### Step 2: Connect Remotely
 Open the terminal on Visual Studio Code and use the ssh command along with your course specifc-account. Look up your course-specific account here: [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php) you'll have to set your password and wait a couple minutes.
 
-This is what the command I typed in looked like
+This is what the command you're typing in should look like. 
 ```
-$ ssh cs15lwi23aqy@ieng6.ucsd.edu
+$ ssh cs15lwi23zz@ieng6.ucsd.edu
 ```
 
-Since it was my first time connecting to the server, I got this message:
+Since it was my first time connecting to the server, I got a message like this:
 ```
 ⤇ ssh cs15lwi23zz@ieng6.ucsd.edu
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
@@ -37,7 +37,7 @@ My terminal looked like this once I logged in.
 
 
 ### Step 3: Running Some Commands
-Try running commands you learned about in class like ls, pwd, and cd on your computer and the remote computer. 
+I tried running commands I learned about in class like ls, pwd, and cd on my computer as well as the remote computer. 
   
 Here is an example of me executing some of the common commands:
 ![Image](runningcommands.png)
