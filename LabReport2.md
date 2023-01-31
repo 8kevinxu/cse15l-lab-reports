@@ -86,3 +86,6 @@ After:
     	return newArray;
   	}
 ```
+Adjustments for the method reverseInPlace: I created a temporary array to copy the reverse elements of arr, and then implemented a for loop to replace the values at each index of arr with the corresponding index in the temporary array. 
+
+Adjustments for the method reversed: I changed arr[i] to newArray[i], newArray[arr.length - i - 1] to arr[arr.length - i - 1], then returned the newArray instead of arr.
