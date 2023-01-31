@@ -50,3 +50,39 @@ Output of the input that did induce failures in our two buggy methods.
 ![Image](reverseInPlaceFailure.png)
 ![Image](reverseFailure.png)
 
+### Change required to fix the buggy code (before and after)
+Before:
+```
+	static void reverseInPlace(int[] arr) {
+		for(int i = 0; i < arr.length; i += 1) {
+      			arr[i] = arr[arr.length - i - 1];
+			}
+		}
+	static int[] reversed(int[] arr) {
+		int[] newArray = new int[arr.length];
+		for(int i = 0; i < arr.length; i += 1) {
+			arr[i] = newArray[arr.length - i - 1];
+		}
+		return arr;
+	}
+```
+After:
+```
+	static void reverseInPlace(int[] arr) {
+		int tempArr[] = new int[arr.length];
+		for(int i = 0; i < arr.length; i += 1) {
+			tempArr[i] = arr[arr.length - i - 1];
+		}
+    		for(int i = 0; i < arr.length; i += 1){
+      			arr[i] = tempArr[i];
+    		}
+  	}
+  
+  	static int[] reversed(int[] arr) {
+    		int[] newArray = new int[arr.length];
+    		for(int i = 0; i < arr.length; i += 1) {
+      			newArray[i] = arr[arr.length - i - 1];
+    		}
+    	return newArray;
+  	}
+```
