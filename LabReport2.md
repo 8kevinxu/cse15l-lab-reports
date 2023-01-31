@@ -86,6 +86,9 @@ After:
     	return newArray;
   	}
 ```
-Adjustments for the method reverseInPlace: I created a temporary array to copy the reverse elements of arr, and then implemented a for loop to replace the values at each index of arr with the corresponding index in the temporary array. 
+Adjustments for the method reverseInPlace: I created a temporary array to copy the reverse elements of arr, and then implemented a for loop to replace the values at each index of arr with the corresponding index in the temporary array. What was happening in the unfixed version of the code was that the method would work on the first half of the inputted items, but wouldn't work on the second half. By creating a temporary array, we could add the reversed elements of the inputted array without having to worry about prior values. 
 
-Adjustments for the method reversed: I changed arr[i] to newArray[i], newArray[arr.length - i - 1] to arr[arr.length - i - 1], then returned the newArray instead of arr.
+Adjustments for the method reversed: I changed arr[i] to newArray[i], newArray[arr.length - i - 1] to arr[arr.length - i - 1], then returned the newArray instead of arr. The unfixed version of the reversed method incorrectly replaces arrays value with the newly created newArray, which just gave us an array of 0s. Instead, updating newArray with the reversed elemnts of arr and returning newArray gave me the output I wanted. 
+
+## Additional things I learned from labs 2 and 3
+I learned that you could lauch a web server from a remote connection, such as the ieng remote connection. To access this web server, instead of the local host url, it would look this: ieng6-201.ucsd.edu:3000 (3000 being the input port number). I also learned that the * command tells javac to compile all the .java files in the currect directory. As the writeup said: it’s a shorthand for writing all the files out, which is a useful notation to use whenever I have several Java files to compile.
