@@ -1,4 +1,4 @@
-# Lab Report 2
+# Lab Report 3
 
 ## Set up
 For context, I first used find on the directory written_2 to save all of its contents to a file find-results.txt. This was so that I could use grep on find-results.txt since grep, by default, only searches the content of files, it cannot search the contents of a directory itself. 
