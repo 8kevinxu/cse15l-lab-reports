@@ -55,6 +55,7 @@ written_2/travel_guides/berlitz2/Portugal-History.txt
 written_2/travel_guides/berlitz2/Portugal-WhatToDo.txt
 written_2/travel_guides/berlitz2/Portugal-WhereToGo.txt
 ```
+
 In the command above, I separated two patterns, Bahamas and Portugal, and -e allowed grep to search for files containing either of the two patterns. 
 This shows how grep -E  can be useful to search for two patterns at once. 
 
@@ -72,8 +73,10 @@ With the command above, I was able to use grep -E to find all lines containing t
 The grep -r option is used to search for a pattern recursively in a directory tree. When this option is used, grep will search for the pattern in all files in the specified directory, as well as in all subdirectories and their files, and so on.
 
 ```
+
 grep -r "revolutionibus" written_2
 written_2/travel_guides/berlitz2/Poland-History.txt:Polish nobles saw their political might expanded during the beginning of the Renaissance with the king’s “rule of the nobility,” which granted exclusive right to enact legislation to nobles in the parliament of Sejm. The 1500s were a time of prosperity, power, and cultural and scientific achievement for the Polish-Lithuanian Commonwealth. In 1543 Nicholas Copernicus, born in Toru´n and a graduate of the Jagiellonian University in Kraków, published his groundbreaking and astronomy-altering treatise, De **revolutionibus** orbium Coeliestium, which positioned the sun and not the earth as the center of the universe. Although the Reformation and Lutherism had an impact on Poland, the country largely avoided the devastating religious wars that raged elsewhere in Europe. 
+
 ```
 
 With the -r option, grep will search for the pattern "revolutionibus" in all files under the directory written_2, including all subdirectories and their files. The output will show the file names and the line numbers where the pattern was found, along with the matching line of text. 
@@ -91,6 +94,7 @@ written_2/travel_guides/berlitz2/Boston-WhereToGo.txt:Continue northward along T
 written_2/travel_guides/berlitz2/Boston-WhereToGo.txt:Except for quotations on the walls from the New Testament and Christian Science founder, Mary Baker Eddy, there’s no decoration. Some stained glass windows are found in the older church, which also contains founder Mary Baker Eddy’s chair. She only addressed the congregation twice, as she wished to avoid any personal idolatry. A guided tour is highly recommended (you can only visit the original church by joining a tour).
 written_2/travel_guides/berlitz2/PuertoRico-WhereToGo.txt:Perhaps one of the most beautiful and unusual buildings in Charlotte Amalie is the St. Thomas Synagogue, on Crystal Gade. This is the oldest synagogue building in continual use under the American flag. The Jewish congregation has always been strong here, from the very earliest days of Danish settlement in 1655. When the all-consuming fire of 1831 broke out, 64 families were worshipping in the small synagogue. Only one scroll could be saved before the flames destroyed the building. The present structure was built on the same spot and opened in 1833. The synagogue has sand on the floor, symbolic of the Jewish flight from Egypt.
 ```
+
 With the -r option, grep will search for the pattern "congregations" in all files under the directory written_2/travel_guides, including all subdirectories and their files. The output will show the file names and the line numbers where the pattern was found, along with the matching line of text. grep -r can be useful when you need to search for a pattern across a large number of files in multiple directories, as it can save you time and effort compared to searching for the pattern in each file separately. I used chatGPT for help with the grep -r command. 
 
 
