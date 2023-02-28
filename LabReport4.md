@@ -48,4 +48,4 @@ I used ctrl+r, typed java, and pressed ctrl+r 2 times to find the command that c
 ```
 Keys pressed: <g><i><t><space><a><d><d><space<.><enter>,<g><i><t><space><c><o><m><m><i><t><space><-><m><space><"><f><i><x><e><d><enter>,<g><i><t><p><u><s><h> 
 ```
-I typed the command "git add ." out which added changes to the Git staging area. Next, I typed the "git commit -m "fixed"" command out to commit the changeds and set the description "fixed" to those changes. Finally, I typed the git push command out to push the changes to GitHub. 
+I typed the command "git add ." out which added changes to the Git staging area. Next, I typed the "git commit -m "fixed"" command out to commit the changes and set the description "fixed" to those changes. Finally, I typed the git push command out to push the changes to GitHub. 
