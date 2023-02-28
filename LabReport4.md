@@ -34,7 +34,7 @@ Keys pressed: <ctrl+r><n><a><enter> (scrolled down>) <right><backspace><2><ctrl+
 I used ctrl+r and typed na to get the nano ListExamples.java command. When I entered the command, the command line editor popped up, so I scrolled down and found the error, used my right arrow key, and fixed the error. To save, I used ctrl+o, and to exit I used ctrl+x.
 
 ## Step 8 - Run the tests, demonstrating that they now succeed
-![Image](testsPass7.png)
+![Image](testsPassLab7.png)
 
 ```
 Keys pressed: <ctrl+r><j><a><v><a><ctrl+r><ctrl+r><enter>,<ctrl+r><j><a><v><a><ctrl+r><ctrl+r><ctrl+r><enter>
