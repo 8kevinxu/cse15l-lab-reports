@@ -27,7 +27,7 @@ I first found the cd lab7 command using ctrl+r to change directories into lab7. 
 
 
 ## Step 7 - Edit the code file to fix the failing test
-![Image](fixCodeLab7)
+![Image](fixCodeLab7.png)
 
 ```
 Keys pressed: <ctrl+r><n><a><enter> (scrolled down>) <right><backspace><2><ctrl+o><enter><ctrl+x>
@@ -36,17 +36,16 @@ Keys pressed: <ctrl+r><n><a><enter> (scrolled down>) <right><backspace><2><ctrl+
 Used the nano command to change the ListExamples.java file. 
 
 ## Step 8 - Run the tests, demonstrating that they now succeed
-![Image](testsPass7)
+![Image](testsPass7.png)
 
 ```
 Keys pressed: <ctrl+r><j><a><v><a><ctrl+r><ctrl+r><enter><ctrl+r><j><a><v><a><ctrl+r><ctrl+r><ctrl+r><enter>
 ```
 I used ctrl+r to compile the tester (javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java), and then ctrl+r again to run the tests (java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests.java).
-```
 
 ## Step 9 - Commit and push the resulting change to your Github account_
-![Image](commitLab7)
-![Image](pushLab7)
+![Image](commitLab7.png)
+![Image](pushLab7.png)
 
 ```
 Keys pressed: <g><i><t><space><a><d><d><space<.><enter><g><i><t><space><c><o><m><m><i><t><space><-><m><space><"><f><i><x><e><d><enter><g><i><t><p><u><s><h> 
