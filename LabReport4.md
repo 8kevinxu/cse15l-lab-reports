@@ -3,7 +3,7 @@
 ![Image](logIntoSsh.png)
 
 ```
-Keys pressed: <ctrl+r> <s> <s> <h> <enter>
+Keys pressed: <ctrl+r><s><s><h><enter>
 ```
 
 The ssh cs15lwi23aqy@ieng6.ucsd.edu command was accessed using ctrl r, and then typing in "ssh", and pressing enter. 
@@ -14,7 +14,7 @@ The ssh cs15lwi23aqy@ieng6.ucsd.edu command was accessed using ctrl r, and then 
 ```
 Keys pressed: <g><i><t><space><c><l><o><n><e><space><ctrl+v><enter>
 ```
-I typed the command git clone out, and pasted the copied link of the forked repository on Github.
+I typed the command git clone out, and pasted the copied link of the forked repository on Github to clone the repository. 
 
 ## Step 6 - Run the tests, demonstrating that they fail
 ![Image](runTestsLab7.png)
@@ -22,7 +22,7 @@ I typed the command git clone out, and pasted the copied link of the forked repo
 ```
 Keys pressed: <ctrl+r><c><d><l><enter><ctrl+r><j><a><v><a><c><enter>,<ctrl+r><j><a><v><a><ctrl+r><ctrl+r><enter>
 ```
-
+I used ctrl+r command, typing "cdl" to access the cd lab7 command. Next, I used ctrl+r again, this time typing "java" to find the javac command that compiles the tester and ran it. Finally, I used ctrl+r, typing "java" and ctrl+r 2 times to find the java command to run the tests. 
 
 ## Step 7 - Edit the code file to fix the failing test
 ![Image](fixCodeLab7.png)
@@ -39,7 +39,7 @@ I used ctrl+r and typed na to get the nano ListExamples.java command. When I ent
 ```
 Keys pressed: <ctrl+r><j><a><v><a><ctrl+r><ctrl+r><enter>,<ctrl+r><j><a><v><a><ctrl+r><ctrl+r><ctrl+r><enter>
 ```
-I used ctrl+r, typed java, and pressed ctrl+r 2 times to find the command that compiles the tester. (javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java), and then pressed ctrl+r 3 times to get the command to run the tests (java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests.java).
+I used ctrl+r, typed java, and pressed ctrl+r 2 times to find the command that compiles the tester. and then pressed ctrl+r 3 times to get the command to run the tests. 
 
 ## Step 9 - Commit and push the resulting change to your Github account_
 ![Image](commitLab7.png)
