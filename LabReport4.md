@@ -4,7 +4,6 @@
 
 ```
 Keys pressed: <ctrl+r> <s> <s> <h> <enter>
-
 ```
 
 The ssh cs15lwi23aqy@ieng6.ucsd.edu command was accessed using ctrl r, and then typing in "ssh", and pressing enter. 
@@ -14,7 +13,6 @@ The ssh cs15lwi23aqy@ieng6.ucsd.edu command was accessed using ctrl r, and then 
 
 ```
 Keys pressed: <g><i><t><space><c><l><o><n><e><space><ctrl+v><enter>
-
 ```
 I typed the command git clone out, and pasted the copied link of the forked repository on Github.
 
@@ -23,7 +21,6 @@ I typed the command git clone out, and pasted the copied link of the forked repo
 
 ```
 Keys pressed: <ctrl+r><c><d><l><enter><ctrl+r><j><a><v><a><c><enter>,<ctrl+r><j><a><v><a><ctrl+r><ctrl+r><enter>
-
 ```
 
 
@@ -32,7 +29,6 @@ Keys pressed: <ctrl+r><c><d><l><enter><ctrl+r><j><a><v><a><c><enter>,<ctrl+r><j>
 
 ```
 Keys pressed: <ctrl+r><n><a><enter> (scrolled down>) <right><backspace><2><ctrl+o><enter><ctrl+x>
-
 ```
 
 I used ctrl+r and typed na to get the nano ListExamples.java command. When I entered the command, the command line editor popped up, so I scrolled down and found the error, used my right arrow key, and fixed the error. To save, I used ctrl+o, and to exit I used ctrl+x.
