@@ -11,16 +11,15 @@ The ssh cs15lwi23aqy@ieng6.ucsd.edu command was accessed using ctrl r, and then 
 ## Step 5 - Clone your fork of the repository from your Github account
 ![Image](gitCloneLab7.png)
 
-```
-Keys pressed: <g><i><t><space><c><l><o><n><e><space><ctrl+v><enter>
-```
+Keys pressed: ```<g><i><t><space><c><l><o><n><e><space><command-v><enter>```
+
 I typed the command git clone out, and pasted the copied link of the forked repository on Github to clone the repository. 
 
 ## Step 6 - Run the tests, demonstrating that they fail
 ![Image](runTestsLab7.png)
 
 ```
-Keys pressed: <ctrl+r><c><d><l><enter><ctrl+r><j><a><v><a><c><enter>,<ctrl+r><j><a><v><a><ctrl+r><ctrl+r><enter>
+Keys pressed: <ctrl+r><c><d><l><enter><ctrl+r><j><a><v><a><c><enter>,<ctrl+r><j><a><v><a><ctrl-r><ctrl-r><enter>
 ```
 I used ctrl+r command, typing "cdl" to access the cd lab7 command. Next, I used ctrl+r again, this time typing "java" to find the javac command that compiles the tester and ran it. Finally, I used ctrl+r, typing "java" and ctrl+r 2 times to find the java command to run the tests. 
 
