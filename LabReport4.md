@@ -4,7 +4,7 @@
 
 Keys pressed: ```<ctrl-r><s><s><h><enter>```
 
-The ```ssh cs15lwi23aqy@ieng6.ucsd.edu``` command was accessed using ```<ctrl-r>```, and then typing in ```ssh```, and pressing ```<enter>``` 
+The ```ssh cs15lwi23aqy@ieng6.ucsd.edu``` command was accessed using ```<ctrl-r>```, and then typing in ```<ssh>```, and pressing ```<enter>``` 
 
 ## Step 5 - Clone your fork of the repository from your Github account
 ![Image](gitCloneLab7.png)
@@ -18,21 +18,21 @@ I typed the command ```git clone``` out, and pasted the copied link of the forke
 
 Keys pressed: ```<ctrl-r><c><d><l><enter><ctrl-r><j><a><v><a><c><enter>```,```<ctrl-r><j><a><v><a><ctrl-r><ctrl-r><enter>```
   
-I used ```<ctrl-r>``` command, typing ```cdl``` to access the ```cd lab7``` command. Next, I used ```<ctrl-r``` again, this time typing ```java``` to find the ```javac``` command that compiles the tester and ran it. Finally, I used ```<ctrl-r```, typing ```java``` and ```<ctrl-r>``` 2 times to find the ```java``` command to run the tests. 
+I used ```<ctrl-r>``` command, typing ```<cdl>``` to access the ```cd lab7``` command. Next, I used ```<ctrl-r``` again, this time typing ```<java>``` to find the ```javac``` command that compiles the tester and ran it. Finally, I used ```<ctrl-r```, typing ```<java>``` and ```<ctrl-r>``` 2 times to find the ```java``` command to run the tests. 
 
 ## Step 7 - Edit the code file to fix the failing test
 ![Image](fixCodeLab7.png)
 
 Keys pressed: ```<ctrl-r><n><a><enter> (scrolled down>) <right><backspace><2><ctrl+o><enter><ctrl-x>```
 
-I used ```<ctrl-r>``` and typed ```na``` to get the ```nano ListExamples.java``` command. When I entered the command, the command line editor popped up, so I scrolled down and found the error, used my ```<right>``` arrow key, and fixed the error. To save, I used ```<ctrl-o>```, and to exit I used ```<ctrl-x>```.
+I used ```<ctrl-r>``` and typed ```<na>``` to get the ```nano ListExamples.java``` command. When I entered the command, the command line editor popped up, so I scrolled down and found the error, used my ```<right>``` arrow key, and fixed the error. To save, I used ```<ctrl-o>```, and to exit I used ```<ctrl-x>```.
 
 ## Step 8 - Run the tests, demonstrating that they now succeed
 ![Image](testsPassLab7.png)
 
 Keys pressed: ```<ctrl-r><j><a><v><a><ctrl-r><ctrl+r><enter>```,```<ctrl-r><j><a><v><a><ctrl-r><ctrl-r><ctrl-r><enter>```
   
-I used ```<ctrl-r>```, typed ```java```, and pressed ```<ctrl-r>``` 2 times to find the command that compiles the tester. and then pressed ```<ctrl-r>``` 3 times to get the command to run the tests. 
+I used ```<ctrl-r>```, typed ```<java>```, and pressed ```<ctrl-r>``` 2 times to find the command that compiles the tester. and then pressed ```<ctrl-r>``` 3 times to get the command to run the tests. 
 
 ## Step 9 - Commit and push the resulting change to your Github account_
 ![Image](commitLab7.png)
