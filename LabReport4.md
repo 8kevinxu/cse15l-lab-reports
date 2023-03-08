@@ -4,7 +4,7 @@
 
 Keys pressed: ```<ctrl-r><s><s><h><enter>```
 
-The ```ssh cs15lwi23aqy@ieng6.ucsd.edu``` command was accessed using ```<ctrl-r>```, and then typing in ```ssh```, and pressing ```<enter>. 
+The ```ssh cs15lwi23aqy@ieng6.ucsd.edu``` command was accessed using ```<ctrl-r>```, and then typing in ```ssh```, and pressing ```<enter>``` 
 
 ## Step 5 - Clone your fork of the repository from your Github account
 ![Image](gitCloneLab7.png)
