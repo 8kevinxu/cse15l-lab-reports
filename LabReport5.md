@@ -8,7 +8,7 @@ only searches the content of files, it cannot search the contents of a directory
 
 ## Find's command line options
 Here's what happens when I use the find command with the written_2 directory without any command line options. 
-![Image]()
+![Image](findCommand.jpg)
 In this example, the find command returns all of the directories and files within the written_2 directory.
 
 ### find's -type option
