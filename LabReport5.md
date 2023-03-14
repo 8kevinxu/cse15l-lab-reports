@@ -10,7 +10,8 @@ only searches the content of files, it cannot search the contents of a directory
 Here's what happens when I use the find command with the written_2 directory without any command line options. 
 ![Image](findCommand.png)
 
-In this example, the find command returns all of the directories and files within the written_2 directory.
+In this example, the find command returns all of the directories and files within the written_2 directory, the screenshot doesn't include all the output
+to save space in this report. 
 
 ### find's -type option
 With find's -type option, we can tell the find command to look for files of a specific types, such as 'f' for regular files, or 'd' for directories.
